@@ -11,7 +11,7 @@ import { IReadonlyTheme } from '@microsoft/sp-component-base';
 import * as strings from 'WeatherWebPartStrings';
 import Weather from './components/Weather';
 import { IWeatherProps } from './components/IWeatherProps';
-
+import "../../../assets/dist/tailwind.css";
 export interface IWeatherWebPartProps {
   description: string;
 }
